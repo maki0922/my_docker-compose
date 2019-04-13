@@ -1,9 +1,0 @@
-version: "3.0"
-services: 
-
-  ubuntu-base:
-    image: ubuntu:latest
-    container_name: python3
-    hostname: python3-exam
-    volumes:
-      - /srv/docker/ubuntu/python3_exam:/root/python3_exam/

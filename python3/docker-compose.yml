@@ -1,0 +1,17 @@
+version: "3"
+services:
+  python3:
+    container_name: my_python3
+    hostname: python3
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: my_python3
+    volumes:
+      - /srv/docker/python3_exam/:/srv/docker/python3_exam/
+    #ports:
+    #  - 80:80
+    #net: host
+    #networks: host
+    network_mode: host
+    tty: true

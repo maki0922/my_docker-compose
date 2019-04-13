@@ -1,4 +1,8 @@
-# my_docker-compose
+# My docker-compose 
 
-# How to Interactive container up
-`docker-compose run ubuntu-base`
+## python3
+For learn to python3 
+
+### How to up container
+- `cd python3`
+- `docker-compose up -d --build`
